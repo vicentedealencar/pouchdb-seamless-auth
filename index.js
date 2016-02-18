@@ -18,7 +18,7 @@
 
 var Auth = require('pouchdb-auth');
 var extend = require('extend');
-var Promise = require('pouchdb-promise');
+var Promise = require('pouchdb/extras/promise')
 var nodify = require('promise-nodify');
 
 var PouchDB, local, remote;
